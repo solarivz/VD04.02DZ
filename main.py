@@ -8,12 +8,12 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/blog")
+@app.route("/blog/")
 def blog():
     return render_template("blog.html")
 
 
-@app.route("/contacts")
+@app.route("/contacts/")
 def contacts():
     return render_template("contacts.html")
 
